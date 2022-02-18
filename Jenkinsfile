@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('He terminado') {
+      steps {
+        echo 'He terminado'
+      }
+    }
+
   }
 }
